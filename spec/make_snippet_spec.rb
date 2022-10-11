@@ -2,8 +2,8 @@ require 'make_snippet'
 
 RSpec.describe 'make_snippet' do
     it 'returns an arguement' do
-    result = make_snippet('Hello')
-    expect(result).to eq 'Hello'
+    result = make_snippet("Hello")
+    expect(result).to eq "Hello"
     end
 
     it 'returns the first 5 words' do

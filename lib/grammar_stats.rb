@@ -44,6 +44,7 @@ class GrammarStats
       return (text[-1] =~ /[!?.]/)
     end
 end
-p text=GrammarStats.new
-p text.check("Hello.")
-p text.percentage_good
+#p text=GrammarStats.new
+#p text.check("Hello.")
+#p text.check("Jello.")
+#p text.percentage_good
